@@ -37,5 +37,16 @@
     echo "a + b = " . ($a + $b). "<br>" ;
     echo "a == b: " . ($a == $b). "<br>" ;
     ?>
+
+    <table border="1">
+        <?php
+        for ($i = 0 ; $i <= 5 ; $i++) {
+            echo "
+            <tr>
+                <td>$i</td>
+            </tr>" ;
+            }
+        ?>
+    </table>
 </body>
 </html>
